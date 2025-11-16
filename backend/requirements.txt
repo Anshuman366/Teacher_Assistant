@@ -1,0 +1,21 @@
+fastapi
+uvicorn
+python-multipart
+requests
+python-dotenv
+PyPDF2
+Pillow
+pydantic
+aiofiles
+huggingface-hub
+transformers
+torch
+scipy
+sentence-transformers
+numpy
+chromadb
+sqlalchemy
+python-jose[cryptography]
+passlib[bcrypt]
+python-docx
+# Optional: faiss-cpu (fast HNSW indexing for Chroma)

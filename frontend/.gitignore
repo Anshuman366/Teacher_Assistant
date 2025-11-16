@@ -1,0 +1,27 @@
+# Only ignore dependencies and build outputs
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+build/
+dist/
+out/
+
+# Runtime/cache
+.eslintcache
+.cache
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+

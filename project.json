@@ -1,0 +1,78 @@
+{
+  "name": "Teacher Assistant Bot",
+  "description": "AI-powered teaching tool with document analysis, question generation, answer evaluation, lesson planning, and chat",
+  "version": "1.0.0",
+  "author": "Education Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  },
+  "keywords": [
+    "education",
+    "teaching",
+    "ai",
+    "questions",
+    "lesson-planning",
+    "answer-evaluation"
+  ],
+  "stack": {
+    "backend": {
+      "language": "Python",
+      "framework": "FastAPI",
+      "server": "Uvicorn",
+      "python_version": "3.8+"
+    },
+    "frontend": {
+      "language": "JavaScript",
+      "framework": "React",
+      "version": "18+",
+      "node_version": "16+"
+    },
+    "ai": {
+      "provider": "Hugging Face",
+      "tier": "Free",
+      "models": [
+        "Mistral-7B-Instruct",
+        "RoBERTa-base-SQuAD2",
+        "DistilBERT"
+      ]
+    }
+  },
+  "features": [
+    "Document Analysis & Explanation",
+    "Question Generation (Multiple types & difficulties)",
+    "Answer Evaluation with Feedback",
+    "Lesson Plan Creation",
+    "AI Chat Bot with Teaching Advice",
+    "Image Answer Recognition",
+    "Bulk Answer Evaluation",
+    "Resource Recommendations"
+  ],
+  "system_requirements": {
+    "backend": {
+      "python": "3.8 or higher",
+      "ram": "2GB minimum",
+      "disk": "500MB"
+    },
+    "frontend": {
+      "node": "16 or higher",
+      "ram": "1GB minimum",
+      "disk": "300MB"
+    }
+  },
+  "installation_time": "10-15 minutes",
+  "deployment_options": [
+    "Local Development",
+    "Docker",
+    "Heroku (Backend)",
+    "Vercel (Frontend)",
+    "AWS",
+    "Azure"
+  ],
+  "support": {
+    "documentation": "See README.md",
+    "quick_start": "See QUICKSTART.md",
+    "issues": "Check GitHub Issues"
+  }
+}
